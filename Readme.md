@@ -1,4 +1,5 @@
 # Drupal Commons Traits
+[![Latest Stable Version](http://poser.pugx.org/jorarmarfin/drupal-commons-traits/v)](https://packagist.org/packages/jorarmarfin/drupal-commons-traits) [![Total Downloads](http://poser.pugx.org/jorarmarfin/drupal-commons-traits/downloads)](https://packagist.org/packages/jorarmarfin/drupal-commons-traits) [![Latest Unstable Version](http://poser.pugx.org/jorarmarfin/drupal-commons-traits/v/unstable)](https://packagist.org/packages/jorarmarfin/drupal-commons-traits) [![License](http://poser.pugx.org/jorarmarfin/drupal-commons-traits/license)](https://packagist.org/packages/jorarmarfin/drupal-commons-traits) [![PHP Version Require](http://poser.pugx.org/jorarmarfin/drupal-commons-traits/require/php)](https://packagist.org/packages/jorarmarfin/drupal-commons-traits)
 
 Este paquete proporciona una colección de traits reutilizables diseñados para facilitar el desarrollo de módulos en Drupal. Los traits están diseñados para ser incorporados en diferentes módulos para proporcionar funcionalidades comunes de manera eficiente y estandarizada.
 
@@ -33,6 +34,19 @@ class MiClase {
   }
 }
 ```
+## Documentación
+ - getNode : Obtiene un nodo por su ID.
+ - getNidByTitleAndType : Obtiene el ID de un nodo por su título y tipo.
+ - getFieldByNid : Obtiene el valor de un campo de un nodo.
+ - getListTitleByTypeFieldId : Obtiene una lista de títulos de nodos por tipo y campo.
+ - getNodesByType : Obtiene una lista de nodos por tipo.
+ - getValueReferenceField : Obtiene el valor de un campo de referencia.
+ - getAllValuesFromReferenceField : Obtiene todos los valores de un campo de referencia.
+ - getAllReferencedEntities : Obtiene todas las entidades referenciadas.
+ - getEntityReferenceField : Obtiene una entidad referenciada.
+ - getTaxonomyTermById : Obtiene un término de taxonomía por su ID.
+ - getTaxonomyList : Obtiene una lista de términos de taxonomía por vocabulario.
+
 ## Contribuir
 Este proyecto es de código abierto y las contribuciones son bienvenidas. Si tienes sugerencias de mejoras o nuevos traits, por favor abre un issue o envía un pull request.
 

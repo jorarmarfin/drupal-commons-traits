@@ -12,10 +12,6 @@ use Drupal\taxonomy\Entity\Term;
 
 trait EntityDrupalTrait
 {
-    function test(): string
-    {
-        return 'Hello from EntityDrupalTrait';
-    }
     /**
      * Loads and returns a node entity based on the provided node ID.
      *
