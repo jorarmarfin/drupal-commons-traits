@@ -2,7 +2,7 @@
 namespace Drupal\CommonsTraits\Traits;
 trait TestTrait
 {
-    public function test()
+    public function CommonsTraitstest()
     {
         return 'Test Trait';
     }
