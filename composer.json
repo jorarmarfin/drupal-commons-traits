@@ -1,0 +1,17 @@
+{
+  "name": "jorarmarfin/drupal-commons-traits",
+  "description": "Colección de traits reutilizables para módulos de Drupal.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    // Tus dependencias van aquí. Por ejemplo:
+    "drupal/core": "^9.0 | ^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Drupal\\CommonsTraits\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
