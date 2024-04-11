@@ -2,6 +2,7 @@
   "name": "jorarmarfin/drupal-commons-traits",
   "description": "Colección de traits reutilizables para módulos de Drupal.",
   "type": "library",
+  "version": "1.0.0",
   "license": "MIT",
   "require": {
     "drupal/core": "^9.0 | ^10.0",
