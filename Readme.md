@@ -35,17 +35,17 @@ class MiClase {
 }
 ```
 ## Documentación
- - getNode : Obtiene un nodo por su ID.
- - getNidByTitleAndType : Obtiene el ID de un nodo por su título y tipo.
- - getFieldByNid : Obtiene el valor de un campo de un nodo.
- - getListTitleByTypeFieldId : Obtiene una lista de títulos de nodos por tipo y campo.
- - getNodesByType : Obtiene una lista de nodos por tipo.
- - getValueReferenceField : Obtiene el valor de un campo de referencia.
- - getAllValuesFromReferenceField : Obtiene todos los valores de un campo de referencia.
- - getAllReferencedEntities : Obtiene todas las entidades referenciadas.
- - getEntityReferenceField : Obtiene una entidad referenciada.
- - getTaxonomyTermById : Obtiene un término de taxonomía por su ID.
- - getTaxonomyList : Obtiene una lista de términos de taxonomía por vocabulario.
+ - getNode: Obtiene un nodo por su ID.
+ - getNidByTitleAndType: Obtiene el ID de un nodo por su título y tipo.
+ - getFieldByNid: Obtiene el valor de un campo de un nodo.
+ - getListTitleByTypeFieldId: Obtiene una lista de títulos de nodos por tipo y campo.
+ - getNodesByType: Obtiene una lista de nodos por tipo.
+ - getValueReferenceField: Obtiene el valor de un campo de referencia.
+ - getAllValuesFromReferenceField: Obtiene todos los valores de un campo de referencia.
+ - getAllReferencedEntities: Obtiene todas las entidades referenciadas.
+ - getEntityReferenceField: Obtiene una entidad referenciada.
+ - getTaxonomyTermById: Obtiene un término de taxonomía por su ID.
+ - getTaxonomyList: Obtiene una lista de términos de taxonomía por vocabulario.
 
 ## Contribuir
 Este proyecto es de código abierto y las contribuciones son bienvenidas. Si tienes sugerencias de mejoras o nuevos traits, por favor abre un issue o envía un pull request.
