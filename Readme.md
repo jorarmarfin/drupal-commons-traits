@@ -35,6 +35,8 @@ class MiClase {
 }
 ```
 ## Documentación
+A continuación se muestra una lista de los traits incluidos en este paquete y una breve descripción de cada uno:
+## EntityDrupalTrait
  - getNode: Obtiene un nodo por su ID.
  - getNidByTitleAndType: Obtiene el ID de un nodo por su título y tipo.
  - getFieldByNid: Obtiene el valor de un campo de un nodo.
@@ -46,7 +48,8 @@ class MiClase {
  - getEntityReferenceField: Obtiene una entidad referenciada.
  - getTaxonomyTermById: Obtiene un término de taxonomía por su ID.
  - getTaxonomyList: Obtiene una lista de términos de taxonomía por vocabulario.
-
+## HelperFunctionsTrait
+ - calculateAge: Calcula la edad de una persona según una fecha establecida.
 ## Contribuir
 Este proyecto es de código abierto y las contribuciones son bienvenidas. Si tienes sugerencias de mejoras o nuevos traits, por favor abre un issue o envía un pull request.
 
